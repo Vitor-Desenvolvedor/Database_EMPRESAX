@@ -17,5 +17,15 @@ CREATE TABLE TLB_DEPARTAMENTO (
   dataInicioGerente varchar(50));
 
 CREATE TABLE TBL_DEPENDENTE (
-  
-)
+  codEmp SMALLINT PRIMARY KEY AUTO_INCREMENT,
+  nome varchar(50) PRIMARY KEY,
+  sexo varchar(50),
+  dataNasc varchar(50),
+  relação varchar(50));
+
+CREATE TABLE TBL_EMPREGADO (
+  codEmp SMALLINT PRIMARY KEY AUTO_INCREMENT,
+  nome varchar(50),
+  dataNasc varchar(50),
+  endereço
+);
